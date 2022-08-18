@@ -1,0 +1,45 @@
+.home-image img {
+  width: 500px;
+  height: 100%;
+}
+.homePage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+
+}
+.homeParagraphe {
+  max-width: 55ch;
+  text-align: justify;
+}
+
+@media (max-width:850px) {
+      .homePage {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      
+      }
+      @media (max-width:510px) {
+        .home-image img {
+            width: 400px;
+          }
+          .homeParagraphe {
+            max-width: 35ch;
+            text-align: justify;
+          }
+    }
+    @media (max-width:390px) {
+        .home-image img {
+            width: 300px;
+          }
+          .homeParagraphe {
+            max-width: 30ch;
+            text-align: justify;
+          }
+    }
+    
+    
+}
+
